@@ -25,7 +25,7 @@ export const orderCP = (data, selectOrder) => {
     return data.sort(
       (maxcp, mincp) => mincp.stats["max-cp"] - maxcp.stats["max-cp"]
     );
-  } else if (selectOrder === "MinCPMaxCP") {
+  } else  { (selectOrder === "MinCPMaxCP")
     return data.sort(
       (maxcp, mincp) => maxcp.stats["max-cp"] - mincp.stats["max-cp"]
     );
