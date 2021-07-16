@@ -562,8 +562,7 @@ footer .social a.developedBy {
     color: var(--yellowpoke);
     font-size: 1.25rem;
     text-align: center;
-    width: 18, 75rem;
-    height: 2.5rem;
+    width: 18.75rem;
     padding: 0.625rem;
     align-content: center;
     margin-bottom: 1rem;
@@ -585,11 +584,9 @@ footer .social a.developedBy {
   }
 
   .filterBytType {
-    margin-left: 2rem;
     padding: 0.312rem;
     margin-bottom: 2.5rem;
     border-radius: 0.625rem;
-    height: 2.5rem;
     background-color: var(--bluepoke);
     color: var(--yellowpoke);
     font: 700 1rem var(--title-font);
@@ -802,6 +799,19 @@ footer .social a.developedBy {
     width: 80%;
     text-align: center;
     margin-left: 2rem;
+  }
+
+  .orderCP {
+    margin-left: 2rem;
+    padding: 0.625rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    border-radius: 0, 625rem;
+    background-color: var(--bluepoke);
+    color: var(--yellowpoke);
+    font: 700 1rem var(--title-font);
+    align-content: center;
+    text-align: center;
   }
 }
 

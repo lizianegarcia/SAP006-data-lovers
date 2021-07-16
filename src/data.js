@@ -13,21 +13,22 @@ export const filterByName = (pokemonsList, pokemonsName) => {
 export const filterByType = (data, selectFilter) =>
   data.filter((pokemon) => pokemon.type.includes(selectFilter));
 
-//Calculo
-export const percentType = (data, filterCalc) => {
-  const calcPoke = data.filter((pokemon) => pokemon.type.includes(filterCalc));
-  return Math.round((calcPoke.length / data.length) * 100);
-};
-
 //Ordenar Pokémons por CP Max->Min/Min->Max
 export const orderCP = (data, selectOrder) => {
   if (selectOrder === "MaxCPMinCP") {
     return data.sort(
       (maxcp, mincp) => mincp.stats["max-cp"] - maxcp.stats["max-cp"]
     );
-  } else if (selectOrder === "MinCPMaxCP") {
+  }
+  if (selectOrder === "MinCPMaxCP") {
     return data.sort(
       (maxcp, mincp) => maxcp.stats["max-cp"] - mincp.stats["max-cp"]
     );
   }
+};
+
+//Cálculo
+export const percentType = (data, filterCalc) => {
+  const calcPoke = data.filter((pokemon) => pokemon.type.includes(filterCalc));
+  return Math.round((calcPoke.length / data.length) * 100);
 };
