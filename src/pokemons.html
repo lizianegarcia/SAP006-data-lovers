@@ -31,7 +31,6 @@
     <header id="header">
       <img src="./assets/img/logo.png" alt="Logo PokeSource" class="logo" />
       <nav class="container">
-        <!-- MENU -->
         <div class="menu">
           <ul class="grid">
             <li><a class="pages" href="./home.html">Home</a></li>
@@ -47,8 +46,25 @@
     <main>
       <div id="container-principal">
         <section class="searchfilter">
+          <!-- Pesquisa de Pokémon por nome -->
+          <input
+            type="pokemonsearch"
+            name="pokemonsearch"
+            id="pokemonsearch"
+            class="pokemonSearch"
+            placeholder="Digite o nome do Pokémon"
+            onkeyup="filterByName()"
+          />
+
+          <input
+            type="button"
+            id="btnFiltrar"
+            value="Filtrar"
+            class="filterButton"
+          />
+
           <!-- Pesquisa de Pokémons por tipo -->
-          <select name="select" id="type" class="filtroTipos">
+          <select name="select" id="type" class="filterBytType">
             <option value="filtrar" selected>Tipos</option>
             <option value="grass">&#127793; Planta</option>
             <option value="fire">&#128293; Fogo</option>
@@ -69,23 +85,6 @@
             <option value="dark">&#127761; Noturno</option>
             <option value="fairy">&#129498; Fada</option>
           </select>
-
-          <!-- Pesquisa de Pokémon por nome -->
-          <input
-            type="pokemonsearch"
-            name="pokemonsearch"
-            id="pokemonsearch"
-            class="pokemonsearch"
-            placeholder="Digite o nome do Pokémon"
-            onkeyup="filterByName()"
-          />
-
-          <input
-            type="button"
-            id="btnFiltrar"
-            value="Filtrar"
-            class="botaoFiltrar"
-          />
 
           <select id="order" class="orderCP">
             <option value="">Ordenar por</option>
@@ -136,9 +135,14 @@
           </a>
           <a class="developedBy"> | Developed by <strong>WOMEN</strong> 👩🏽‍🎨 |</a>
           🢒 Giuliana
-          <a href="https://github.com/Giuthamie" target="_blank"
-          i
-          class="icon-github"> <img src="./assets/icons/github.png"/></a>
+          <a
+            href="https://github.com/Giuthamie"
+            target="_blank"
+            i
+            class="icon-github"
+          >
+            <img src="./assets/icons/github.png"
+          /></a>
           <a
             href="https://www.linkedin.com/in/giuliana-thami%C3%AA/"
             target="_blank"
@@ -146,9 +150,14 @@
             class="icon-linkedin"
           ></a>
           🢒 Liziane
-          <a href="https://github.com/lizianegarcia" target="_blank"
-          i
-          class="icon-github"> <img src="./assets/icons/github.png"/> </a>
+          <a
+            href="https://github.com/lizianegarcia"
+            target="_blank"
+            i
+            class="icon-github"
+          >
+            <img src="./assets/icons/github.png" />
+          </a>
           <a
             href="https://www.linkedin.com/in/liziane-garcia-da-rosa-44ba8832/"
             target="_blank"

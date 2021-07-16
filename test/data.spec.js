@@ -3,22 +3,34 @@ import {filterByName, filterByType, percentType, orderCP} from "../src/data.js";
 const typePoke = [
   {"name": "bulbasaur",
   "type": ["grass", "poison"],
-  "max-cp": "1115",
+  "maxcp.stats":["max-cp: 1115"],
+  "pokemon-rarity": "normal"
 },
 
 {"name": "charmeleon",
   "type": "fire",
-  "max-cp": "1653",},
+  "maxcp.stats":["max-cp: 1653"],
+  "pokemon-rarity": "normal"
+},
 
 {"name": "pikachu",
   "type": "electric",
-  "max-cp": "938",}
+  "maxcp.stats":["max-cp: 938"],
+  "pokemon-rarity": "normal"
+},
+
+  {"name": "rattata",
+  "type": "normal",
+  "maxcp.stats":["max-cp: 734"],
+  "pokemon-rarity": "normal"
+}
 
 ];
 const namePoke = [
   {"name": "bulbasaur"},
   {"name": "charmeleon"},
   {"name": "pikachu"},
+  {"name": "rattata"},
 
 ];
 
@@ -62,21 +74,67 @@ describe('percentType', () => {
     expect(typeof percentType).toBe('function');
   });
   it('You should calculate the per', () => {
-    expect(percentType(typePoke,'fire')).toBe(33);
+    expect(percentType(typePoke,'fire')).toBe(25);
   });
   it('You should calculate the per', () => {
-    expect(percentType(typePoke,'electric')).toBe(33);
+    expect(percentType(typePoke,'electric')).toBe(25);
   });
 });
 
-//Deverá ordenar por CP crescente e decrescente e é uma função
+//Deverá ordenar por CP e é uma função
 
 describe('orderCP', () => {
   it('orderCP it should be a function', () => {
     expect(typeof orderCP).toBe('function');
   });
-  it('It should show in order of CP', () => {
-    expect(orderCP(typePoke, "max-cp")).toEqual(typePoke);
+
+  it('mincp is less than maxcp by some ordering criterion', () => {
+    const mockOrderCpMin = [
+
+    {"name": "rattata",
+    "type": "normal",
+    "maxcp.stats":["max-cp: 734"]},
+
+    {"name": "pikachu",
+    "type": "electric",
+    "maxcp.stats":["max-cp: 938"]},
+      
+    {"name": "bulbasaur",
+    "type": ["grass", "poison"],
+    "maxcp.stats":["max-cp: 1115"]},
+  
+  
+    {"name": "charmeleon",
+    "type": "fire",
+    "maxcp.stats":["max-cp: 1653"]},
+  ];
+    
+  
+    expect(orderCP(typePoke, "maxcp.stats")).toStrictEqual(mockOrderCpMin);
+  });
+
+  it('maxc is greater than mincp by some ordering criterion ', () => {
+    const mockOrderCpMax = [
+
+      {"name": "charmeleon",
+      "type": "fire",
+      "maxcp.stats":["max-cp: 1653"]},
+
+      {"name": "bulbasaur",
+      "type": ["grass", "poison"],
+      "maxcp.stats": ["max-cp: 1115"]},
+
+      {"name": "pikachu",
+      "type": "electric",
+      "maxcp.stats":["max-cp: 938"]},
+
+      {"name": "rattata",
+      "type": "normal",
+      "maxcp.stats":["max-cp: 734"]}
+    ];  
+    
+
+    expect(orderCP(typePoke, "maxcp.stats")).toStrictEqual(mockOrderCpMax);
   });
 
 });
