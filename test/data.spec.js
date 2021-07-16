@@ -75,19 +75,10 @@ describe('orderCP', () => {
   it('orderCP it should be a function', () => {
     expect(typeof orderCP).toBe('function');
   });
-  it('It should show in order of CP growing', () => {
-    expect(orderCP(typePoke, "max-cp")).toStrictEqual(typePoke);
-  });
-  it('YShould show in order of decreasing CP', () => {
-    expect(orderCP(typePoke, "max-cp")).toStrictEqual(typePoke.reverse());
+  it('It should show in order of CP', () => {
+    expect(orderCP(typePoke, "max-cp")).toEqual(typePoke);
   });
 
-  it('It should show in order of CP growing', () => {
-    expect(orderCP(typePoke, "min-cp")).toStrictEqual(typePoke);
-  });
-  it('YShould show in order of decreasing CP', () => {
-    expect(orderCP(typePoke, "min-cp")).toStrictEqual(typePoke.reverse());
-  });
 });
 
 

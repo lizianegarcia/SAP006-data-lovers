@@ -108,7 +108,7 @@ function calcPercent() {
 const orderByCP = document.getElementById("order");
 
 function pokemonsByCP(event) {
-  const selectOrder = orderCP(data.pokemon, event.target.value);
+  const selectOrder = orderCP(filteredPokemons, event.target.value);
   return printPokemons(selectOrder);
 }
 
