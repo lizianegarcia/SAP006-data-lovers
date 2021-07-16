@@ -94,6 +94,16 @@ filterTypes.addEventListener("change", () => {
   calcPercent();
 });
 
+// Ordenar Pokémons por CP
+const orderByCP = document.getElementById("order");
+
+function pokemonsByCP(event) {
+  const selectOrder = orderCP(filteredPokemons, event.target.value);
+  return printPokemons(selectOrder);
+}
+
+orderByCP.addEventListener("change", pokemonsByCP);
+
 // Printar porcentagem por tipo, conforme seleção no filtro
 function calcPercent() {
   document.getElementById("resultcalc").innerText = "";
@@ -104,15 +114,6 @@ function calcPercent() {
   ).innerText = `Este tipo de Pokémon representa ${result}% do total`;
 }
 
-// Ordenar Pokémons por CP
-const orderByCP = document.getElementById("order");
-
-function pokemonsByCP(event) {
-  const selectOrder = orderCP(data.pokemon, event.target.value);
-  return printPokemons(selectOrder);
-}
-
-orderByCP.addEventListener("change", pokemonsByCP);
 /*
 //Limpar filtros
 const clearSearch = () => {
