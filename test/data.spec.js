@@ -112,7 +112,7 @@ describe("orderCP", () => {
       { name: "charmeleon", type: "fire", "maxcp.stats": ["max-cp: 1653"] },
     ];
 
-    expect(orderCP(typePoke, "maxcp.stats")).toStrictEqual(mockOrderCpMin);
+    expect(orderCP(typePoke, "MinCPMaxCP")).toStrictEqual(mockOrderCpMin);
   });
 
   it("maxc is greater than mincp by some ordering criterion ", () => {
@@ -130,7 +130,7 @@ describe("orderCP", () => {
       { name: "rattata", type: "normal", "maxcp.stats": ["max-cp: 734"] },
     ];
 
-    expect(orderCP(pokeType, "max-cp")).toStrictEqual(mockOrderCpMax);
+    expect(orderCP(typePoke, "MaxCPMinCP")).toStrictEqual(mockOrderCpMax);
   });
 
 });
