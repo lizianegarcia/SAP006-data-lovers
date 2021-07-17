@@ -37,22 +37,22 @@ Pesquisa de usuário realizada através de form, distribuido para jogadores de P
 Segue abaixo dados da pesquisa:
 
 ### Gráfico - Faixa etária
-<img src="imagem/Faixa_Etária.png" alt="Grafico de pesquisa faixa etária">
+<img src="Faixa_Etária.png" alt="Grafico de pesquisa faixa etária">
 
 ### Gráfico - Identidade de gênero
 
-<img src="imagem/Identidade_de_gênero.png" alt="Grafico de pesquisa identidade de gênero">
+<img src="Identidade_de_gênero.png" alt="Grafico de pesquisa identidade de gênero">
 
 ### Gráfico - Pokémon favorito
 
-<img src="imagem/Pokémon_favorito.png" alt="Grafico de pesquisa pokémon favorito">
+<img src="Pokémon_favorito.png" alt="Grafico de pesquisa pokémon favorito">
 
 ### Gráfico - O que é mais importante em um pokémon?
 
-<img src="imagem/Mais_importante_em_um_Pokémon.png" alt="Grafico de pesquisa o que é mais importante em um pokémon">
+<img src="Mais_importante_em_um_Pokémon.png" alt="Grafico de pesquisa o que é mais importante em um pokémon">
 
 ### Gráfico - Mais informações
-<img src="imagem/Mais_infos.png" alt="Grafico de pesquisa com informações que os usuários jugam importantes sobre pokémons raros">
+<img src="Mais_infos.png" alt="Grafico de pesquisa com informações que os usuários jugam importantes sobre pokémons raros">
 
 ### Pesquisa Laboratória
 
@@ -62,21 +62,21 @@ Segue abaixo dados da pesquisa:
 
 Após pesquisa, foram definidas as histórias de usuário, um norte para a criação de uma aplicação adequada a necessidade de nossos usuários.
 
-<img src="imagem/historiadeusuario1e2.jpeg" alt="Imagem com histórias de usuário">
+<img src="historiadeusuario1e2.jpeg" alt="Imagem com histórias de usuário">
 
-<img src="imagem/historiadeusuario3e4.png" alt="Imagem com histórias de usuário">
+<img src="historiadeusuario3e4.png" alt="Imagem com histórias de usuário">
 
 
 ## 4. Layouts e protótipos
 
 ### Protótipo de baixa fidelidade
-<img src="imagem/Protótipo_Baixa_Fidelidade.png" alt="Imagem de protótipo de baixa fidelidade">
+<img src="Protótipo_Baixa_Fidelidade.png" alt="Imagem de protótipo de baixa fidelidade">
 
 ### Protótipo de alta fidelidade
-<img src="imagem/prototipofigma.jpeg" alt="Imagem de protótipo de alta fidelidade">
+<img src="prototipofigma.jpeg" alt="Imagem de protótipo de alta fidelidade">
 
 ### Paleta de cores
-<img src="imagem/paletadecores.jpeg" alt="Imagem com paleta de cores">
+<img src="paletadecores.jpeg" alt="Imagem com paleta de cores">
 
 ### Projeto final
 
