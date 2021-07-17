@@ -33,6 +33,7 @@ const typePoke = [
     "maxcp.stats": ["max-cp: 734"],
     "pokemon-rarity": "normal",
   },
+
 ];
 const namePoke = [
   { name: "bulbasaur" },
@@ -95,6 +96,7 @@ describe("orderCP", () => {
     expect(typeof orderCP).toBe("function");
   });
 
+
   it("mincp is less than maxcp by some ordering criterion", () => {
     const mockOrderCpMin = [
       { name: "rattata", type: "normal", "maxcp.stats": ["max-cp: 734"] },
@@ -128,6 +130,8 @@ describe("orderCP", () => {
       { name: "rattata", type: "normal", "maxcp.stats": ["max-cp: 734"] },
     ];
 
-    expect(orderCP(typePoke, "maxcp.stats")).toStrictEqual(mockOrderCpMax);
+    expect(orderCP(pokeType, "max-cp")).toStrictEqual(mockOrderCpMax);
   });
+
 });
+
