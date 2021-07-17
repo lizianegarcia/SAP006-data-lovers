@@ -64,7 +64,7 @@ Após pesquisa, foram definidas as histórias de usuário, um norte para a cria�
 
 <img src="historiadeusuario1e2.jpeg" alt="Imagem com histórias de usuário">
 
-<img src="historiadeusuario3e4.png" alt="Imagem com histórias de usuário">
+<img src="historiadeusuario3e4.jpeg" alt="Imagem com histórias de usuário">
 
 
 ## 4. Layouts e protótipos
