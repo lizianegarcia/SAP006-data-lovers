@@ -39,38 +39,41 @@ Após os apurarmos os resultados da pesquisa, foram definidas as histórias de u
 
 ## 4. Layouts e protótipos :art:
 
-Em um primeiro momento, decidimos que teríamos apenas uma página, com os cards dos Pokémon, um filtro para filtrar Pokémon por tipo e um ordenar de A-Z.
+:black_medium_small_square: Em um primeiro momento, decidimos que teríamos apenas uma página, com os cards dos Pokémon, um filtro para filtrar Pokémon por tipo e um ordenar de A-Z.
 
 ### Protótipo de baixa fidelidade :floppy_disk:
 
 <img src="Protótipo_Baixa_Fidelidade.png" alt="Imagem de protótipo de baixa fidelidade">
 
-Com o desenvolvimento do projeto, percebemos que precisaríamos de mais duas páginas, uma para ser a Home e outra para as Dicas aos usuários. Além claro, da Pokédex com todos os cards e informações de todos Pokémon.
+:black_medium_small_square: Com o desenvolvimento do projeto, percebemos que precisaríamos de mais duas páginas, uma para ser a Home e outra para as Dicas aos usuários. Além claro, da Pokédex com todos os cards e informações de todos Pokémon.
 
 ### Protótipo de alta fidelidade :cd:
 
 <img src="Protótipo_Figma.jpeg" alt="Imagem de protótipo de alta fidelidade">
-Para o card, personalizamos todas as principais informações que os usuários escolheram através da pesquisa.
+
+:black_medium_small_square: Para o card, personalizamos todas as principais informações que os usuários escolheram através da pesquisa.
 <img src="card.gif" alt="exemplo de card com informação de evolução, raridade e força">
 
 ### Paleta de cores :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle:
 
-Para o layout, pensamos em algo bem clean, desta forma, desenvolvemos uma paleta com cores que remetem aos tipos de Pokémon, porém sem nenhuma cor muito viva ou muito cansativa aos olhos.
+:black_medium_small_square: Para o layout, pensamos em algo bem clean, desta forma, desenvolvemos uma paleta com cores que remetem aos tipos de Pokémon, porém sem nenhuma cor muito viva ou muito cansativa aos olhos.
 
 <img src="Paleta_de_Cores.jpeg" alt="Imagem com paleta de cores">
 
 ### Projeto final :file_folder:
 
-O usuário tem a opção de filtrar o Pokémon por nome, digitando o nome completo ou apenas parte dele e clicando no botão Filtrar:
+:black_medium_small_square: O usuário tem a opção de filtrar o Pokémon por nome, digitando o nome completo ou apenas parte dele e clicando no botão Filtrar:
 <img src="pesquisapornome.gif">
 
-Através do filtro por Tipo, o usuário visualizará todos os Pokémon do tipo escolhido, além de saber qual a porcentagem o tipo escolhido representa do total:
+:black_medium_small_square: Através do filtro por Tipo, o usuário visualizará todos os Pokémon do tipo escolhido, além de saber qual a porcentagem o tipo escolhido representa do total:
 <img src="filtrotipos.gif">
 
-Dentre os Pokémon que foram filtrados no passo anterior, é possível ordená-los por CP. Vale lembrar que o ordenar por CP funciona também sem qualquer seleção anterior de filtro.
-Ordenação do CP maior ao menor:
+:black_medium_small_square: Dentre os Pokémon que foram filtrados no passo anterior, é possível ordená-los por CP. Vale lembrar que o ordenar por CP funciona também sem qualquer seleção anterior de filtro.
+
+:black_medium_small_square: Ordenação do CP maior ao menor:
 <img src="ordemmax.gif">
-Ordenação do CP menor ao maior:
+
+:black_medium_small_square: Ordenação do CP menor ao maior:
 <img src="ordemmin.gif">
 
 ## 5. Experiência dos usuários :right_anger_bubble:
