@@ -27,6 +27,7 @@ O projeto Data Lovers foi realizado no  _bootcamp_ da [LABORATÓRIA](https://www
 Constatamos através de uma pesquisa, que nossos usuários têm entre 25 a 35 anos, são majoritariamente mulheres e consideram mais relevantes em um Pokémon sua Evolução, Raridade, Força e Tipo, respectivamente.
 Desse modo, todas as informações mais relevantes de conteúdo vieram através dos nossos usuários e suas necessidades.
 Descobrimos também que o Pikachu é o Pokémon favorito de 25% das pessoas, seguido de Charizard (15%) e Bulbassauro (11%).
+
 <img src="ranking.png" alt="pódio com pikachu em primeiro lugar, charizard em segundo e bulbassauro em terceiro">
 
 ## 3. Histórias de usuários :receipt:
