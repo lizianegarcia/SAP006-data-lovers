@@ -56,6 +56,7 @@ Para o card, personalizamos todas as principais informações que os usuários e
 ### Paleta de cores :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle:
 
 Para o layout, pensamos em algo bem clean, desta forma, desenvolvemos uma paleta com cores que remetem aos tipos de Pokémon, porém sem nenhuma cor muito viva ou muito cansativa aos olhos.
+
 <img src="Paleta_de_Cores.jpeg" alt="Imagem com paleta de cores">
 
 ### Projeto final :file_folder:
