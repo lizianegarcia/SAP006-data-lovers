@@ -1,12 +1,12 @@
 // Mostrar quantidade de Pokémons que quisermos selecionar
-export const showPokemons = (pokemonsList) => pokemonsList.slice(0, 10);
+export const showPokemons = (pokemonsList) => pokemonsList.slice(0, 251);
 
 // Filtrar Pokémons por nome através do input text
 export const filterByName = (pokemonsList, pokemonsName) => {
   const lowerCaseName = pokemonsName.toLowerCase();
   return pokemonsList
     .filter((pokemon) => pokemon.name.toLowerCase().startsWith(lowerCaseName))
-    .slice(0, 10);
+    .slice(0, 251);
 };
 
 //Filtrar Pokémons por tipo através do select
