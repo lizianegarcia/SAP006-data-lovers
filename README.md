@@ -143,11 +143,8 @@ INSERIR IMAGEM DA COBERTURA DE TESTE
 - [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
 
 ## 8. Autoras :woman_technologist:
-
 ### Giuliana :woman_artist:
-
 [@Giuthamie](https://github.com/Giuthamie)  [Linkedin](https://www.linkedin.com/in/giuliana-thami%C3%AA/)
 
 ### Liziane :woman_artist:
-
 [@lizianegarcia](https://github.com/lizianegarcia)  [Linkedin](https://www.linkedin.com/in/liziane-garcia-da-rosa-44ba8832/)
