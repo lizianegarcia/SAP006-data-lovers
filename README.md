@@ -34,6 +34,7 @@ Descobrimos também que o Pikachu é o Pokémon favorito de 25% das pessoas, seg
 
 User Story ou “história de usuário” é uma descrição concisa de uma necessidade do usuário do produto (ou seja, de um “requisito”) sob o ponto de vista desse usuário. A User Story busca descrever essa necessidade de uma forma simples e leve.
 Após os apurarmos os resultados da pesquisa, foram definidas as histórias de usuários, como um norte para a criação de uma aplicação adequada a necessidade de nossos usuários.
+
 <img src="Histórias_de_Usuários.png" alt="Imagem com histórias de usuário">
 
 ## 4. Layouts e protótipos :art:
