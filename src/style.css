@@ -519,6 +519,7 @@ footer .social a.developedBy {
   }
 
   .title {
+    margin-top: 2rem;
     font-size: 1rem;
     text-align: center;
     width: 90%;
@@ -611,6 +612,7 @@ footer .social a.developedBy {
   }
 
   .title {
+    margin-top: 2rem;
     font-size: 1.2rem;
     text-align: center;
     width: 90%;
