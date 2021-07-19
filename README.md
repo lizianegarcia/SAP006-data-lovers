@@ -87,7 +87,9 @@ Durante o projeto, realizamos testes de usabilidade com diferentes tipos de usu�
 * Apagar dados de porcentagem de acordo com a mudança do filtro;
 * Apagar dados da tela para filtrar novos dados;
 * Ordenar os Pokémon por CP ao invés de ordem alfabética;
-* Linkar a ordenação por CP com os resultados do filtro de Tipos.
+* Linkar a ordenação por CP com os resultados do filtro de Tipos;
+* Deixar margens laterais para o texto em telas pequenas;
+* Alterar o botão "Filtrar" para "Buscar".
 
 <img src="pikachu.gif">
 
