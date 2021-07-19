@@ -16,13 +16,10 @@ export const filterByType = (data, selectFilter) =>
 //Ordenar Pokémons por CP Max->Min/Min->Max
 export const orderCP = (data, selectOrder) => {
   if (selectOrder === "MaxCPMinCP") {
-    return data.sort(
-      (maxcp, mincp) => mincp.stats["max-cp"] - maxcp.stats["max-cp"]
+    return data.sort((maxcp, mincp) => mincp.stats["max-cp"] - maxcp.stats["max-cp"]
     );
-  }
-  if (selectOrder === "MinCPMaxCP") {
-    return data.sort(
-      (maxcp, mincp) => maxcp.stats["max-cp"] - mincp.stats["max-cp"]
+  }  if (selectOrder === "MinCPMaxCP") {
+    return data.sort((maxcp, mincp) => maxcp.stats["max-cp"] - mincp.stats["max-cp"]
     );
   }
 };
