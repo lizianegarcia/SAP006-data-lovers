@@ -96,7 +96,6 @@ Durante o projeto, realizamos testes de usabilidade com diferentes tipos de usu�
 * Deixar margens laterais para o texto em telas pequenas;
 * Alterar o botão "Filtrar" para "Buscar".
 
-<img src="pikachu.gif">
 
 ## 6. Conteúdos abordados :trophy:
 
@@ -155,3 +154,9 @@ Segue abaixo resultado da cobertura de testes:
 
 ### Liziane :woman_artist:
 [@lizianegarcia](https://github.com/lizianegarcia)  [Linkedin](https://www.linkedin.com/in/liziane-garcia-da-rosa-44ba8832/)
+
+---
+
+<img src="pikachu.gif">
+
+:computer_mouse: Acesse aqui a [PokeSource](https://lizianegarcia.github.io/SAP006-data-lovers/)
