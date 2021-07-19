@@ -66,13 +66,17 @@ Após apurarmos os resultados da pesquisa, foram definidas as histórias de usu�
 
 <img src="pesquisapornome.gif">
 
+
 :black_medium_small_square: Através do filtro por Tipo, o usuário visualizará todos os Pokémon do tipo escolhido, além de saber qual a porcentagem o tipo escolhido representa do total:
+
 <img src="filtrotipos.gif">
+
 
 :black_medium_small_square: Dentre os Pokémon que foram filtrados no passo anterior, é possível ordená-los por CP. Vale lembrar que o ordenar por CP funciona também sem qualquer seleção anterior de filtro.
 
 :black_medium_small_square: Ordenação do CP maior ao menor:
 <img src="ordemmax.gif">
+
 
 :black_medium_small_square: Ordenação do CP menor ao maior:
 <img src="ordemmin.gif">
