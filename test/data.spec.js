@@ -7,38 +7,39 @@ import {
 
 const typePoke = [
   {
-    name: "bulbasaur",
-    type: ["grass", "poison"],
-    "maxcp.stats": ["max-cp: 1115"],
-    "pokemon-rarity": "normal",
+    "name": "bulbasaur",
+    "type": ["grass", "poison"],
+    "stats": { "max-cp": "1115" },
+    
   },
 
   {
-    name: "charmeleon",
-    type: "fire",
-    "maxcp.stats": ["max-cp: 1653"],
-    "pokemon-rarity": "normal",
+    "name": "pikachu",
+    "type": "electric",
+    "stats": { "max-cp": "938" },
+    
   },
 
   {
-    name: "pikachu",
-    type: "electric",
-    "maxcp.stats": ["max-cp: 938"],
-    "pokemon-rarity": "normal",
+    "name": "charmeleon",
+    "type": "fire",
+    "stats": { "max-cp": "1653" },
+    
   },
 
+
   {
-    name: "rattata",
-    type: "normal",
-    "maxcp.stats": ["max-cp: 734"],
-    "pokemon-rarity": "normal",
+    "name": "rattata",
+    "type": "normal",
+    "stats": { "max-cp": "734"},
+    
   },
 ];
 const namePoke = [
-  { name: "bulbasaur" },
-  { name: "charmeleon" },
-  { name: "pikachu" },
-  { name: "rattata" },
+  { "name": "bulbasaur" },
+  { "name": "charmeleon" },
+  { "name": "pikachu" },
+  { "name": "rattata" },
 ];
 
 /*Deverá filtrar por nome e é uma função. Se o usuário escrever qq coisa sem ser o nome do pokemon,
@@ -95,39 +96,40 @@ describe("orderCP", () => {
     expect(typeof orderCP).toBe("function");
   });
 
-  it("mincp is less than maxcp by some ordering criterion", () => {
-    const mockOrderCpMin = [
-      { name: "rattata", type: "normal", "maxcp.stats": ["max-cp: 734"] },
-
-      { name: "pikachu", type: "electric", "maxcp.stats": ["max-cp: 938"] },
-
-      {
-        name: "bulbasaur",
-        type: ["grass", "poison"],
-        "maxcp.stats": ["max-cp: 1115"],
-      },
-
-      { name: "charmeleon", type: "fire", "maxcp.stats": ["max-cp: 1653"] },
-    ];
-
-    expect(orderCP(typePoke, "MinCPMaxCP")).toStrictEqual(mockOrderCpMin);
-  });
-
   it("maxc is greater than mincp by some ordering criterion ", () => {
     const mockOrderCpMax = [
-      { name: "charmeleon", type: "fire", "maxcp.stats": ["max-cp: 1653"] },
+      { "name": "charmeleon", "type": "fire", "stats": {"max-cp": "1653"} },
 
       {
-        name: "bulbasaur",
-        type: ["grass", "poison"],
-        "maxcp.stats": ["max-cp: 1115"],
+        "name": "bulbasaur",
+        "type": ["grass", "poison"],
+        "stats": {"max-cp": "1115"},
       },
 
-      { name: "pikachu", type: "electric", "maxcp.stats": ["max-cp: 938"] },
+      { "name": "pikachu", "type": "electric", "stats": {"max-cp": "938"} },
 
-      { name: "rattata", type: "normal", "maxcp.stats": ["max-cp: 734"] },
+      { "name": "rattata", "type": "normal", "stats": {"max-cp": "734"} },
     ];
 
     expect(orderCP(typePoke, "MaxCPMinCP")).toStrictEqual(mockOrderCpMax);
   });
+
+  it("mincp is less than maxcp by some ordering criterion", () => {
+    const mockOrderCpMin = [
+      { "name": "rattata", "type": "normal", "stats": {"max-cp": "734"} },
+
+      { "name": "pikachu", "type": "electric", "stats": {"max-cp": "938"} },
+
+      {
+        "name": "bulbasaur",
+        "type": ["grass", "poison"],
+        "stats": {"max-cp": "1115"},
+      },
+
+      { "name": "charmeleon", "type": "fire", "stats": {"max-cp": "1653"} },
+    ];
+
+    expect(orderCP(typePoke, "MinCPMaxCP")).toStrictEqual(mockOrderCpMin);
+  });
+  
 });
