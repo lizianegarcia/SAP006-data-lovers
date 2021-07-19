@@ -7,7 +7,7 @@
 * [3. Histórias de usuários](#3-históriasde-usuários)
 * [4. Layout e protótipos](#4-layout-eprotótipos)
 * [5. Experiência dos usuários](#5-experiência-dosusuários)
-* [6. Objetivos de aprendizagem](#6-objetivos-deaprendizagem)
+* [6. Conteúdos abordados](#6-conteúdos-abordados)
 * [7. Testes unitários](#7-testesunitários)
 * [8. Autoras](#8-autoras)
 
@@ -33,7 +33,7 @@ Descobrimos também que o Pikachu é o Pokémon favorito de 25% das pessoas, seg
 ## 3. Histórias de usuários :receipt:
 
 User Story ou “história de usuário” é uma descrição concisa de uma necessidade do usuário do produto (ou seja, de um “requisito”) sob o ponto de vista desse usuário. A User Story busca descrever essa necessidade de uma forma simples e leve.
-Após os apurarmos os resultados da pesquisa, foram definidas as histórias de usuários, como um norte para a criação de uma aplicação adequada a necessidade de nossos usuários.
+Após apurarmos os resultados da pesquisa, foram definidas as histórias de usuários, como um norte para a criação de uma aplicação adequada a necessidade de nossos usuários.
 
 <img src="Histórias_de_Usuários.png" alt="Imagem com histórias de usuário">
 
@@ -136,7 +136,7 @@ Durante o projeto, realizamos testes de usabilidade com diferentes tipos de usu�
 Foram escritos testes unitários para que o projeto pudesse rodar adequadamente.
 Segue abaixo imagens da cobertura de testes:
 
-INSERIR IMAGEM DA COBERTURA DE TESTE
+<img src="teste.png" alt="Imagem com a cobertura dos testes">
 
 ### Testing
 
