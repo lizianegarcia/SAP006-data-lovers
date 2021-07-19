@@ -110,6 +110,7 @@ header .logo {
 
 .section {
   padding: calc(5rem + var(--header-height)) 0;
+  width: 100%;
 }
 
 .grid {
@@ -742,6 +743,12 @@ footer .social a.developedBy {
 }
 
 @media (min-width: 1220px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -772,7 +779,7 @@ footer .social a.developedBy {
   .title {
     font-size: 2rem;
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
 
   .secondtitle {
@@ -782,16 +789,28 @@ footer .social a.developedBy {
   }
 
   #home .text p {
+    margin-left: 2.5rem;
     font: 400 1.2rem var(--title-font);
     width: 100%;
     text-align: center;
-    margin-left: 2rem;
   }
 
   #home .text p.sinopse {
-    width: 90%;
+    width: 60%;
+    font: 400 1.2rem var(--title-font);
     text-align: center;
-    margin-left: 2rem;
+  }
+
+  .imagepassport {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+  }
+
+  .imageserie {
+    display: flex;
+    width: 20%;
+    justify-content: left;
   }
 
   .orderCP {
