@@ -63,6 +63,7 @@ Após apurarmos os resultados da pesquisa, foram definidas as histórias de usu�
 ### Projeto final :file_folder:
 
 :black_medium_small_square: O usuário tem a opção de filtrar o Pokémon por nome, digitando o nome completo ou apenas parte dele e clicando no botão Filtrar:
+
 <img src="pesquisapornome.gif">
 
 :black_medium_small_square: Através do filtro por Tipo, o usuário visualizará todos os Pokémon do tipo escolhido, além de saber qual a porcentagem o tipo escolhido representa do total:
