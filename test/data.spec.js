@@ -95,7 +95,7 @@ describe("orderCP", () => {
   it("orderCP it should be a function", () => {
     expect(typeof orderCP).toBe("function");
   });
-  
+
   it("maxc is greater than mincp by some ordering criterion ", () => {
     const mockOrderCpMax = [
       { "name": "charmeleon", "type": "fire", "stats": {"max-cp": "1653"} },
@@ -131,6 +131,5 @@ describe("orderCP", () => {
 
     expect(orderCP(typePoke, "MinCPMaxCP")).toStrictEqual(mockOrderCpMin);
   });
-
   
 });
