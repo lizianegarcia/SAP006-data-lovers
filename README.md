@@ -134,7 +134,7 @@ Durante o projeto, realizamos testes de usabilidade com diferentes tipos de usu�
 ## 7. Testes unitários :desktop_computer:
 
 Foram escritos testes unitários para que o projeto pudesse rodar adequadamente.
-Segue abaixo imagens da cobertura de testes:
+Segue abaixo resultado da cobertura de testes:
 
 <img src="teste.png" alt="Imagem com a cobertura dos testes">
 
