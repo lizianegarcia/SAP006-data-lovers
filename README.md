@@ -159,4 +159,4 @@ Segue abaixo resultado da cobertura de testes:
 
 <img src="pikachu.gif">
 
-:computer_mouse: Acesse aqui a [PokeSource](https://lizianegarcia.github.io/SAP006-data-lovers/)
+Acesse aqui a [PokeSource](https://lizianegarcia.github.io/SAP006-data-lovers/) :computer_mouse:
