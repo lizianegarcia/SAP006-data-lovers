@@ -746,13 +746,8 @@ footer .social a.developedBy {
   .section {
     padding: calc(5rem + var(--header-height)) 0;
     display: flex;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin-right: auto;
   }
 
   nav .menu {
